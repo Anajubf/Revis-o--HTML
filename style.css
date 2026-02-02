@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background-color: red;
+    color: white;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: yellow;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.35;
+}
+
+nav a:hover {
+    color:  #ffbc0d;
+}
+
+main {
+    margin: 2rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: red;
+    font-size: 2.5rem;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    min-width: 300px;
+    width: 500px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-text h2 {
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero-text p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: gray;
+    font-style: italic;
+}
+
+
+.hero-text ul {
+    margin-left: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.hero-text li {
+    margin-bottom: 0.5rem;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    min-width: 250px;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s;
+    background: red;
+    flex: 1;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: 0.5rem;
+}
+
+.card p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.yellow {
+    background-color: #ffbc0d;
+    color: black;
+}
+
+.black {
+    background-color: #333;
+}
+
+.orange {
+    background-color: rgb(255, 115, 0);
+}
+
+.green {
+    background-color: green;
+}
+
+.brown {
+    background-color: rgb(99, 5, 5);
+}
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+@media (max-width: 376px) {
+    nav a {
+        font-size: 0.75rem;
+    }
+}
